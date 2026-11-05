@@ -1,0 +1,40 @@
+# Segredos
+.env
+.env.*
+*.pem
+*.key
+secrets/
+CLAUDE.local.md
+
+# Dados: nunca versionar log real ou dataset pesado
+data/raw/
+data/clientes/
+*.log
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / app
+node_modules/
+build/
+dist/
+.dart_tool/
+
+# Modelos treinados grandes
+*.pkl
+*.joblib
+*.onnx
+*.pt
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
